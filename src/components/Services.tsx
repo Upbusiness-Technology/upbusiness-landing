@@ -1,26 +1,27 @@
-import { ShoppingCart, Cloud, Smartphone, BarChart3, Lock, Headphones } from "lucide-react";
+import { Store, Utensils, Settings, BarChart3, Lock, Headphones } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Services = () => {
   const services = [
     {
-      icon: ShoppingCart,
-      title: "E-commerce Completo",
-      description: "Plataformas robustas e escaláveis para vendas online, integradas com os principais marketplaces",
-      features: ["Checkout otimizado", "Gestão de estoque", "Multi-canais"]
+      icon: Store,
+      title: "UpGestor",
+      description: "Sistema completo para comércios de varejo, ideal para lojas de roupas, mercearias, assistências técnicas e diversos outros segmentos.",
+      features: ["Gestão de vendas", "Controle de estoque", "Relatórios e finanças"]
     },
     {
-      icon: Cloud,
-      title: "ERP em Nuvem",
-      description: "Gestão empresarial integrada, acessível de qualquer lugar, com dados seguros na nuvem",
-      features: ["Financeiro completo", "Controle total", "Relatórios em tempo real"]
+      icon: Utensils,
+      title: "UpPDV",
+      description: "Solução especializada para restaurantes, pizzarias e bares, com app mobile para garçons totalmente integrado.",
+      features: ["Comandas digitais", "Gestão de mesas", "Integração com cozinha e caixa"]
     },
     {
-      icon: Smartphone,
-      title: "App Mobile",
-      description: "Aplicativos nativos para iOS e Android que aproximam sua marca dos clientes",
-      features: ["Design personalizado", "Push notifications", "Pagamento integrado"]
-    },
+      icon: Settings,
+      title: "Sistemas Personalizados",
+      description: "Desenvolvemos sistemas sob medida, projetados para atender fluxos exclusivos e necessidades específicas de cada cliente.",
+      features: ["Totalmente customizável", "Foco no processo real", "Escalável e seguro"]
+    }
+    ,
     {
       icon: BarChart3,
       title: "Business Intelligence",
@@ -58,7 +59,7 @@ const Services = () => {
           {/* Services Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
-              <Card 
+              <Card
                 key={index}
                 className="group bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-card overflow-hidden animate-scale-in"
                 style={{ animationDelay: `${index * 0.1}s` }}

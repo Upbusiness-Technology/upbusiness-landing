@@ -1,4 +1,4 @@
-import { CheckCircle2, Rocket, Shield, TrendingUp, Users2, Zap } from "lucide-react";
+import { CheckCircle2, Rocket, Shield, TrendingUp, Users2, Wallet, RefreshCcw } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
@@ -9,13 +9,13 @@ const Benefits = () => {
     },
     {
       icon: Shield,
-      title: "Segurança Garantida",
-      description: "Certificações internacionais e compliance total"
+      title: "Segurança e Privacidade",
+      description: "Seguimos rigorosamente a LGPD e adotamos práticas modernas de proteção de dados."
     },
     {
       icon: TrendingUp,
-      title: "ROI Comprovado",
-      description: "Clientes alcançam payback em média de 4 meses"
+      title: "Agilidade Operacional",
+      description: "O sistema otimiza processos e torna o dia a dia do comércio muito mais rápido e eficiente."
     },
     {
       icon: Users2,
@@ -23,15 +23,17 @@ const Benefits = () => {
       description: "Equipe especializada exclusiva para seu projeto"
     },
     {
-      icon: Zap,
-      title: "Integração Total",
-      description: "Conectamos com todos os sistemas que você já usa"
-    },
-    {
-      icon: CheckCircle2,
-      title: "SLA Premium",
-      description: "Garantia de 99.9% de uptime e suporte prioritário"
+      icon: Wallet,
+      title: "Preço Acessível",
+      description: "Planos pensados para caber no orçamento de pequenos e médios comércios, sem perder qualidade."
     }
+    ,
+    {
+      icon: RefreshCcw,
+      title: "Atualizações Contínuas",
+      description: "Evolução constante do sistema, com melhorias frequentes e recursos que acompanham as necessidades do mercado."
+    }
+
   ];
 
   return (
@@ -58,7 +60,7 @@ const Benefits = () => {
               >
                 {/* Glow effect on hover */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity blur-xl" />
-                
+
                 <div className="relative z-10">
                   {/* Icon */}
                   <div className="w-14 h-14 rounded-xl bg-muted flex items-center justify-center mb-4 group-hover:bg-gradient-primary group-hover:shadow-glow transition-all duration-300">
@@ -80,10 +82,11 @@ const Benefits = () => {
           {/* Stats Bar */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 p-8 rounded-2xl bg-gradient-to-r from-card via-muted/20 to-card border border-border">
             {[
-              { value: "10+", label: "Anos de Experiência" },
-              { value: "500+", label: "Projetos Entregues" },
-              { value: "50+", label: "Especialistas" },
-              { value: "98%", label: "Clientes Satisfeitos" }
+              { value: "50%", label: "Redução de Erros Operacionais" },
+              { value: "3x", label: "Mais Rapidez no Atendimento" },
+              { value: "90%", label: "Aumento na Organização" },
+              { value: "24/7", label: "Sistema Disponível" }
+
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">

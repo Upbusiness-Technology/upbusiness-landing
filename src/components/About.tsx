@@ -5,7 +5,7 @@ const About = () => {
     {
       icon: Target,
       title: "Nossa Missão",
-      description: "Democratizar o acesso à tecnologia de ponta, capacitando comércios de todos os tamanhos a competirem no mercado digital."
+      description: "Democratizar o acesso a ferramentas inteligentes de gestão, tornando a transformação digital acessível a qualquer empresa."
     },
     {
       icon: Zap,
@@ -55,9 +55,9 @@ const About = () => {
           {/* Story Section */}
           <div className="mt-16 p-10 rounded-2xl bg-gradient-to-br from-card to-muted/20 border border-border">
             <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto">
-              Com mais de uma década de experiência no mercado, combinamos expertise técnica com profundo conhecimento do varejo. 
-              Nossa equipe multidisciplinar trabalha lado a lado com cada cliente, garantindo que a tecnologia 
-              seja uma ferramenta de crescimento real e mensurável.
+              Nossa equipe reúne anos de experiência real no comércio. 
+              Trabalhamos em diversos segmentos do varejo e conhecemos de perto os desafios do dia a dia. 
+              É essa vivência prática que nos permite criar soluções que realmente resolvem problemas e impulsionam resultados.
             </p>
           </div>
         </div>

@@ -5,8 +5,8 @@ const CTA = () => {
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/10 to-background" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(var(--primary)/0.15),transparent_50%)]" />
+      {/* <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/10 to-background" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(var(--primary)/0.15),transparent_50%)]" /> */}
       
       <div className="container px-4 mx-auto relative z-10">
         <div className="max-w-4xl mx-auto">
@@ -48,7 +48,7 @@ const CTA = () => {
               {/* Trust indicators */}
               <div className="pt-8 border-t border-border">
                 <p className="text-sm text-muted-foreground mb-4">
-                  Junte-se a centenas de empresas que já confiam na UpBusiness
+                  Junte-se a dezenas de empresas que já confiam na UpBusiness
                 </p>
                 <div className="flex justify-center items-center gap-8 flex-wrap">
                   {[

@@ -4,29 +4,29 @@ import { Separator } from "@/components/ui/separator";
 const Footer = () => {
   const links = {
     solutions: [
-      { name: "E-commerce", href: "#" },
-      { name: "ERP em Nuvem", href: "#" },
-      { name: "App Mobile", href: "#" },
+      { name: "PDV - Ponto de vendas", href: "#" },
+      { name: "Frente de caixa", href: "#" },
+      { name: "Sistemas Personalizados", href: "#" },
       { name: "Business Intelligence", href: "#" }
     ],
     company: [
       { name: "Sobre Nós", href: "#" },
-      { name: "Nosso Time", href: "#" },
-      { name: "Carreiras", href: "#" },
-      { name: "Blog", href: "#" }
+      { name: "Por Que a UpBusiness?", href: "#" },
+      // { name: "Carreiras", href: "#" },
+      // { name: "Blog", href: "#" }
     ],
     support: [
       { name: "Central de Ajuda", href: "#" },
-      { name: "Documentação", href: "#" },
-      { name: "Status", href: "#" },
-      { name: "Termos de Uso", href: "#" }
+      { name: "Whatsapp", href: "#" },
+      { name: "Email", href: "#" },
+      // { name: "Termos de Uso", href: "#" }
     ]
   };
 
   const socialLinks = [
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Facebook, href: "#", label: "Facebook" }
+    // { icon: Facebook, href: "#", label: "Facebook" }
   ];
 
   return (
@@ -48,17 +48,17 @@ const Footer = () => {
 
               {/* Contact Info */}
               <div className="space-y-3">
-                <div className="flex items-start gap-3 text-sm text-muted-foreground">
+                {/* <div className="flex items-start gap-3 text-sm text-muted-foreground">
                   <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span>Av. Paulista, 1000 - São Paulo, SP - 01310-100</span>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-3 text-sm text-muted-foreground">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span>(11) 3000-0000</span>
+                  <span>(88) 9 9688-2815</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm text-muted-foreground">
                   <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span>contato@upbusiness.com.br</span>
+                  <span>upbusinessenterprise@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             {/* Copyright */}
             <p className="text-sm text-muted-foreground">
-              © 2024 UpBusiness. Todos os direitos reservados.
+              © 2025 UpBusiness. Todos os direitos reservados.
             </p>
 
             {/* Social Links */}

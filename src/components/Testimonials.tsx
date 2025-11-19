@@ -5,26 +5,47 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Mariana Costa",
-      role: "CEO, Fashion Store",
-      avatar: "MC",
+      name: "Mateus Nobre",
+      role: "Proprietário, Nobres Grill",
+      avatar: "MN",
       rating: 5,
-      text: "A UpBusiness revolucionou nossa operação. Em 6 meses, aumentamos as vendas online em 150% e reduzimos custos operacionais significativamente."
+      text: "Aqui melhorou demais com o aplicativo, da pra fazer tudo do celular mesmo"
     },
     {
-      name: "Roberto Silva",
-      role: "Diretor, TechMart",
-      avatar: "RS",
+      name: "Ailton Chaves",
+      role: "Proprietário, Cantinho do Churrasco",
+      avatar: "AC",
       rating: 5,
-      text: "Implementaram nosso ERP em tempo recorde. O suporte é excepcional e a plataforma é intuitiva. Finalmente temos controle total do negócio."
+      text: "Gostei demais do trabalho, o aplicativo ta servindo muito bem aqui na churrascaria"
     },
     {
-      name: "Ana Paula Mendes",
-      role: "Fundadora, BeautyShop",
+      name: "Cezar Lima",
+      role: "Proprietário, Cezar Bikes",
+      avatar: "CL",
+      rating: 5,
+      text: "Sistema top! A gente anotava em um caderno as vendas e pra fazer os cupons era no improviso mesmo viu"
+    },
+    {
+      name: "Alilton Nobre",
+      role: "Proprietário, Estação Pizza",
       avatar: "AM",
       rating: 5,
-      text: "O aplicativo mobile que desenvolveram para nós superou todas as expectativas. Nossos clientes adoraram e o engajamento triplicou!"
-    }
+      text: "Superou todas as expectativas. Tinha que sair desse papel e caneta mas fizeram mais que isso! Adoramos"
+    },
+    {
+      name: "Francisco Cleison",
+      role: "Proprietário, Churrascaria SW",
+      avatar: "RS",
+      rating: 5,
+      text: "Equipe muito atenciosa. O sistema ate mudou a forma que a gente trabalha, ficou tudo mais fácil. Nota 10"
+    },
+    // {
+    //   name: "Alilton Nobre",
+    //   role: "Proprietário, Estação Pizza",
+    //   avatar: "AM",
+    //   rating: 5,
+    //   text: "Superou todas as expectativas pessoal. Queria sair do papel e caneta mas fizeram mais que isso! Adoramos"
+    // }
   ];
 
   return (
