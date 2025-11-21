@@ -13,10 +13,9 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/upbusiness-landing/">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/upbusiness-landing" element={<Index />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
